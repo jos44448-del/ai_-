@@ -1,3 +1,4 @@
 import streamlit as st
-st.title('누구야 너')
-st.write('너 누구냐고')
+st.title('나의 첫 웹 서비스 만들기')
+st.text_input('이름')
+st.button('인사말 생성')
